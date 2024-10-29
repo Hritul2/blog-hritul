@@ -23,7 +23,7 @@ export default function Home() {
     return (
         <main className="min-h-screen overflow-hidden pb-12 pt-28">
             <section className="mx-4 md:mx-20">
-                <div className="rounded-3xl border p-6 shadow backdrop-blur-md md:p-8">
+                <div className="rounded-3xl border border-rose-500/20 p-6 shadow backdrop-blur-md dark:border-rose-600/20 md:p-8">
                     <div className="flex flex-col items-start gap-8 animate-in lg:flex-row lg:gap-16">
                         <div className="flex w-full flex-col gap-6">
                             <div className="space-y-3">
@@ -74,7 +74,7 @@ export default function Home() {
             </section>
 
             <section className="mx-4 mt-12 md:mx-20">
-                <div className="rounded-3xl border p-6 shadow backdrop-blur-md md:p-8">
+                <div className="rounded-3xl border border-rose-500/20 p-6 shadow backdrop-blur-md dark:border-rose-600/20 md:p-8">
                     <h1 className="text-xl font-bold text-rose-500 dark:text-rose-600 sm:text-2xl">
                         Blog Posts
                     </h1>
