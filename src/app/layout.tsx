@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import Appbar from "@/components/Appbar";
+import Appbar from "@/components/Appbar/Appbar";
 
 const nunito = Nunito({
     subsets: ["latin"],
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={`${nunito.className} bg-zinc-50 antialiased dark:bg-zinc-950`}>
+            <body className={`${nunito.className} bg-background antialiased`}>
                 <ThemeProvider
                     attribute="class"
                     defaultTheme="light"
